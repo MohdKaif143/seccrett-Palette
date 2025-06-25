@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Palette - Handmade with Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Secret Palette</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="products.html" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Handcrafted Crochet Creations</h1>
+                    <p>Discover unique, handmade crochet products crafted with love and attention to detail</p>
+                    <a href="products.html" class="cta-button">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="container">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search for products..." class="search-input">
+                    <button class="search-button">🔍</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="products-grid" id="featuredGrid">
+                    <div class="product-card" data-name="Crochet Bloom Gift Wrap">
+                        <div class="product-image">
+                            <div class="placeholder-image">
+                                  <img src="product img/prod1/img1.jpg"
+         alt="Crochet Bloom Gift Wrap"
+         style="width: 100%; height: 100%; object-fit: cover; transform: scale(0.9); border-radius: inherit;">
+    </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Crochet Bloom Gift Wrap</h3>
+                            <p class="product-price">₹455.00</p>
+                            <button class="buy-button" onclick="buyProduct('Crochet Bloom Gift Wrap')">Buy Now</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-name="Cute Amigurumi Bear">
+                        <div class="product-image">
+                            <div class="placeholder-image">🐻</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Cute Amigurumi Bear</h3>
+                            <p class="product-price">$28.00</p>
+                            <button class="buy-button" onclick="buyProduct('Cute Amigurumi Bear')">Buy Now</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-name="Stylish Crochet Scarf">
+                        <div class="product-image">
+                            <div class="placeholder-image">🧣</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Stylish Crochet Scarf</h3>
+                            <p class="product-price">$32.00</p>
+                            <button class="buy-button" onclick="buyProduct('Stylish Crochet Scarf')">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Introduction -->
+        <section class="brand-intro">
+            <div class="container">
+                <div class="intro-content">
+                    <h2>Welcome to Secret Palette</h2>
+                    <p>Every stitch tells a story. Our handmade crochet products are crafted with passion, creativity, and years of experience. From cozy blankets to adorable amigurumi, each piece is unique and made with the finest materials.</p>
+                    <p>We believe in the beauty of handmade items and the warmth they bring to every home. Join our community of crochet lovers and discover the perfect piece for you or your loved ones.</p>
+                    <a href="about.html" class="learn-more-button">Learn More About Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Secret Palette. Made with ❤️ and yarn.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
